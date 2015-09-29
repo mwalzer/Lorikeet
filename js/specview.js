@@ -1807,6 +1807,7 @@
             // placeholder for file name, scan number and charge
             parentTable += '<div id="'+getElementId(container, elementIds.fileinfo)+'" style="width:100%;"></div> ';
             parentTable += '</td> ';
+            //TODO add view option annotated sequence
         }
 
 
@@ -2010,7 +2011,8 @@
 			
 			specinfo += '<div>';
 			specinfo += '<span style="font-weight:bold; color:#8B0000;">'+getModifiedSequence(options)+'</span>';
-
+            //TODO add css and ion respective over- and under-lines
+            
 			var neutralMass = 0;
 			
 			if(options.precursorMassType == 'mono')
